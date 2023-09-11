@@ -26,9 +26,9 @@ This is the official implementation of **Language Prompt for Autonomous Driving*
 
 ## :star: Benchmark
 
-We expand Nuscenes dataset with annotating language prompts, named NuPrompt.
+We expand nuScenes dataset with annotating language prompts, named NuPrompt.
 It is a large-scale dataset for language prompt in driving scenes, which contains 35,367 language prompts for 3D objects, each for an average of 5.3 instances.
-Thanks to Nuscnes, our descriptions are closed to real-driving nature and complexity, covering a 3D, multi-view, and multi-frame space.
+Thanks to nuScenes, our descriptions are closed to real-driving nature and complexity, covering a 3D, multi-view, and multi-frame space.
 
 [//]: # (We show some examples below.)
 [//]: # (More data will be released at future.)
@@ -55,6 +55,7 @@ If you find our work useful in your research, please consider citing it.
 ## :heart: Acknowledgements
 We thank the authors that open the following projects. 
 - [MMDetection3d](https://github.com/open-mmlab/mmdetection3d)
+- [nuScenes](https://github.com/nutonomy/nuscenes-devkit)
 - [PF-Track](https://github.com/TRI-ML/PF-Track)
 - [PETR](https://github.com/megvii-research/PETR)
 - [MOTR](https://github.com/megvii-research/MOTR)
