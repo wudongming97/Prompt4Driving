@@ -6,7 +6,7 @@ Language Prompt for Autonomous Driving
 </h1>
 </div>
 
-> **[Language Prompt for Autonomous Driving]()**
+> **[Language Prompt for Autonomous Driving](https://arxiv.org/abs/2309.04379)**
 >
 > [Dongming Wu*](https://wudongming97.github.io/), [Wencheng Han*](https://wencheng256.github.io/), [Tiancai Wang](https://scholar.google.com/citations?user=YI0sRroAAAAJ&hl=zh-CN), [Yingfei Liu](https://scholar.google.com/citations?user=pF9KA1sAAAAJ&hl=zh-CN&oi=ao), [Xiangyu Zhang](https://scholar.google.com/citations?user=yuB-cfoAAAAJ&hl=zh-CN), [Jianbing Shen](https://shenjianbing.github.io/)
 
@@ -22,7 +22,7 @@ This is the official implementation of **Language Prompt for Autonomous Driving*
 
 ## :boom: News
 
-- [2023.09.11] Our paper is released at [arXiv]().
+- [2023.09.11] Our paper is released at [arXiv](https://arxiv.org/abs/2309.04379).
 
 ## :star: Benchmark
 
