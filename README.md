@@ -30,10 +30,10 @@ We expand nuScenes dataset with annotating language prompts, named NuPrompt.
 It is a large-scale dataset for language prompt in driving scenes, which contains 40,147 language prompts for 3D objects.
 Thanks to nuScenes, our descriptions are closed to real-driving nature and complexity, covering a 3D, multi-view, and multi-frame space.
 
+The data can be downloaded from [NuPrompt](https://github.com/wudongming97/Prompt4Driving/releases/download/v1.0/nuprompt_v1.0.zip).
 ## :hammer: Model
 
 Our model is built upon [PF-Track](https://github.com/TRI-ML/PF-Track). 
-We add a new prompt reasoning branch to predict the prompt-referred objects.
 
 Please refer to [data.md](./docs/data.md) for preparing data and pre-trained models.
 
