@@ -50,13 +50,21 @@ Please refer to [training_inference.md](./docs/training_inference.md) for traini
 
 
 ## :point_right: Citation
-If you find our work useful in your research, please consider citing it.
+If you find our work useful in your research, please consider citing them.
 
 ```
 @article{wu2023language,
   title={Language Prompt for Autonomous Driving},
   author={Wu, Dongming and Han, Wencheng and Wang, Tiancai and Liu, Yingfei and Zhang, Xiangyu and Shen, Jianbing},
   journal={arXiv preprint},
+  year={2023}
+}
+```
+```
+@inproceedings{wu2023referring,
+  title={Referring multi-object tracking},
+  author={Wu, Dongming and Han, Wencheng and Wang, Tiancai and Dong, Xingping and Zhang, Xiangyu and Shen, Jianbing},
+  booktitle={CVPR},
   year={2023}
 }
 ```
