@@ -21,23 +21,33 @@ This is the official implementation of **Language Prompt for Autonomous Driving*
 * We develop a simple end-to-end baseline model, called PromptTrack, which effectively fuses cross-modal features in a newly built prompt reasoning branch to predict referent objects, showing impressive performance.
 
 ## :boom: News
-
+- [2024.06.27] Data and code are released. Welcome to try it!
 - [2023.09.11] Our paper is released at [arXiv](https://arxiv.org/abs/2309.04379).
 
 ## :star: Benchmark
 
 We expand nuScenes dataset with annotating language prompts, named NuPrompt.
-It is a large-scale dataset for language prompt in driving scenes, which contains 35,367 language prompts for 3D objects, each for an average of 5.3 instances.
+It is a large-scale dataset for language prompt in driving scenes, which contains 40,147 language prompts for 3D objects.
 Thanks to nuScenes, our descriptions are closed to real-driving nature and complexity, covering a 3D, multi-view, and multi-frame space.
 
-[//]: # (We show some examples below.)
-[//]: # (More data will be released at future.)
-
-## :eyes: Model
+## :hammer: Model
 
 Our model is built upon [PF-Track](https://github.com/TRI-ML/PF-Track). 
 We add a new prompt reasoning branch to predict the prompt-referred objects.
-The code will be released at future.
+
+Please refer to [data.md](./docs/data.md) for preparing data and pre-trained models.
+
+Please refer to [environment.md](./docs/environment.md) for environment installation.
+
+Please refer to [training_inference.md](./docs/training_inference.md) for training and evaluation.
+
+## :rocket: Results
+
+|   Method    | AMOTA | AMOTP | RECALL |                                              Model                                               |                                                     Config |
+|:-----------:|:-----:|:-----:|:------:|:------------------------------------------------------------------------------------------------:|-----------------------------------------------------------:|
+| PromptTrack | 0.200 | 1.572 | 32.5%  | [model](https://github.com/wudongming97/Prompt4Driving/releases/download/v1.0/f3_prompttrack_e12.pth) | [config](./projects/configs/prompttrack/f3_prompttrack.py) |
+
+
 
 ## :point_right: Citation
 If you find our work useful in your research, please consider citing it.
