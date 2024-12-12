@@ -21,6 +21,7 @@ This is the official implementation of **Language Prompt for Autonomous Driving*
 * We develop a simple end-to-end baseline model, called PromptTrack, which effectively fuses cross-modal features in a newly built prompt reasoning branch to predict referent objects, showing impressive performance.
 
 ## :boom: News
+- [2024.12.10] This work is accepted by AAAI 2025. A new version of the paper will be released soon.
 - [2024.06.27] Data and code are released. Welcome to try it!
 - [2023.09.11] Our paper is released at [arXiv](https://arxiv.org/abs/2309.04379).
 
