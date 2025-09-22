@@ -52,7 +52,7 @@ Please refer to [training_inference.md](./docs/training_inference.md) for traini
 
 ## :point_right: Citation
 If you find our work useful in your research, please consider citing them.
-
+```
 @inproceedings{wu2025language,
   title={Language prompt for autonomous driving},
   author={Wu, Dongming and Han, Wencheng and Liu, Yingfei and Wang, Tiancai and Xu, Cheng-zhong and Zhang, Xiangyu and Shen, Jianbing},
@@ -62,6 +62,7 @@ If you find our work useful in your research, please consider citing them.
   pages={8359--8367},
   year={2025}
 }
+```
 ```
 @inproceedings{wu2023referring,
   title={Referring multi-object tracking},
